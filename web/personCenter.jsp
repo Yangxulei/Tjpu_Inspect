@@ -257,8 +257,7 @@
                     <div class="ag-content-customer-ele-detail-display-left">
                         <img src="images/ag-customer-taobao_a9d7af6.png" />
                     </div>
-                    <div class=""
-                         style=" width:600px; height:420px;position:relative;top:;right:-400px;">
+                    <div style=" width:600px; height:420px;position:relative;top:;right:-400px;">
                         <div style="margin-bottom:10px;" align="left">
                             <div style="color: #fff;">用户名:</div>
                             <input id="uname" class="easyui-textbox"
@@ -821,8 +820,8 @@ $('#photo1').attr('src',$('#photo').filebox('getValue'));
     </div>
 
     </body>
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请先联系管理员
-</c:if>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请先联系管理员--%>
+<%--</c:if>--%>
 </html>

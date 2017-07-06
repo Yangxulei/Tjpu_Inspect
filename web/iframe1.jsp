@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -115,35 +115,35 @@
         <table >
             <tr>
                 <td rowspan="2">     <a class="yellow"href="addxunchaInfo.jsp" target="iframe"style="width: 400px;height: 260px;">
-                    <img src="iframeimg/xuncha1.png" style="margin-top: 60px" /></br>巡查信息录入</a></td>
+                    <img src="images/xuncha1.png" style="margin-top: 60px" /></br>巡查信息录入</a></td>
 
                 <td> <a class="pink" href="studentCount.jsp" target="iframe"style="width: 150px;height: 125px;font-size:20px ">
-                    <img src="iframeimg/tongji1.png" style="margin-top: 10px"/><br />学生统计分析</a></td>
+                    <img src="images/tongji1.png" style="margin-top: 10px"/><br />学生统计分析</a></td>
                 <td rowspan="2" colspan="2"><a class="purple" href="xunchaRecordManager.jsp" target="iframe"style="width: 510px;height: 260px;">
-                    <img src="iframeimg/xuncha2.png" style="margin-top: 60px" /></br>巡查信息查询</a></td>
+                    <img src="images/xuncha2.png" style="margin-top: 60px" /></br>巡查信息查询</a></td>
 
             </tr>
             <tr>
 
                 <td > <a class="green" href="teacherCount.jsp" target="iframe"style="width: 150px;height: 125px;font-size:20px">
-                    <img src="iframeimg/tongji2.png" style="margin-top: 10px"/><br />教师统计分析</a></td>
+                    <img src="images/tongji2.png" style="margin-top: 10px"/><br />教师统计分析</a></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
                 <td colspan="2" rowspan="2">   <a class="blue" href="personCenter.jsp" target="iframe"style="width: 565px;height: 260px;">
-                    <img src="iframeimg/person.png" style="margin-top: 60px"/><br />个人中心</a></td>
+                    <img src="images/person.png" style="margin-top: 60px"/><br />个人中心</a></td>
 
                 <td colspan="2">    <a class="orange" href="javascript:updatePwd()"style="width: 510px;height: 125px;">
-                    <img src="iframeimg/password.png" style="margin-top: 10px"/><br />修改密码</a></td>
+                    <img src="images/password.png" style="margin-top: 10px"/><br />修改密码</a></td>
 
             </tr>
             <tr>
 
                 <td>   <a class="red"href="updateRole.jsp" target="iframe"style="width: 250px;height: 125px;">
-                    <img src="iframeimg/role.png" style="margin-top: 10px"/><br />权限管理</a></td>
+                    <img src="images/role.png" style="margin-top: 10px"/><br />权限管理</a></td>
                 <td> <a class="lblue"href="javascript:loginOut1()"style="width: 250px;height: 125px;">
-                    <img src="iframeimg/out.png" style="margin-top: 10px"/><br />注销登录</a></td>
+                    <img src="images/out.png" style="margin-top: 10px"/><br />注销登录</a></td>
             </tr>
         </table>
     </center>

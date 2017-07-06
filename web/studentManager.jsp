@@ -8,7 +8,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <html>
     <head>
         <title>学生信息管理</title>
@@ -289,9 +289,9 @@ data-options="title:'学生信息管理',fit:true"> -->
         </form>
     </div>
     </body>
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请联系管理员
-</c:if>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请联系管理员--%>
+<%--</c:if>--%>
 </html>
 

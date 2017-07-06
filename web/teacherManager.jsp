@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <head>
         <title>教师信息管理</title>
         <meta charset="UTF-8">
@@ -211,9 +211,9 @@
                           style="width:15%;">
             <option selected="selected"></option>
             <option>张建军</option>
-            <option>王秋菊</option>
-            <option>崔源</option>
-            <option>薛大欣</option>
+            <option>尹海欣</option>
+            <option>姜丽丽</option>
+            <option>韩教授</option>
         </select>
             <a href="javascript:findTeacherInfoBySidandRname()"
                class="easyui-linkbutton" data-options="iconCls:'icon-search'">搜索</a>
@@ -264,10 +264,10 @@
         <a href="javascript:saveTeacherInfo()" class="easyui-linkbutton"
            data-options="iconCls:'icon-save'">保存</a></div>
     </body>
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请联系管理员
-</c:if>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请联系管理员--%>
+<%--</c:if>--%>
 </html>
 
 

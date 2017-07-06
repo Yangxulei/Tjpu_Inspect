@@ -1209,9 +1209,9 @@ public class DBUtils implements CommonDB {
 
     }
     @Override
-    public EcharStudnetData findEcharStudentdata(String classname,String xueqi,String grade,String teacher) {
+    public EcharStudentData findEcharStudentdata(String classname,String xueqi,String grade,String teacher) {
         try {
-            EcharStudnetData esd=new EcharStudnetData();
+            EcharStudentData esd=new EcharStudentData();
 
             String sql = "select sum(absence) as a,sum(late) as b,sum(chat) as c,sum(sleep) as d,sum(playphone) as e  from tb_xuncha_record where classname=? and xueqi=? and grade=? ";
             String sql1 = "select sum(absence) as a,sum(late) as b,sum(chat) as c,sum(sleep) as d,sum(playphone) as e  from tb_xuncha_record where classname=? and xueqi=? and grade=? and tname=?";
