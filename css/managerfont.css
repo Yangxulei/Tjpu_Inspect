@@ -1,0 +1,10 @@
+a:link {
+	font: 12px;
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
