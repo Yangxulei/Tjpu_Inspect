@@ -37,5 +37,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.0.M21" level="application_server_libraries" />
     <orderEntry type="library" name="Struts 2-2.3.20.1" level="project" />
     <orderEntry type="library" name="Hibernate 5.2.10-5.2.10" level="project" />
+    <orderEntry type="library" name="fastjson-1.1.40" level="project" />
   </component>
 </module>

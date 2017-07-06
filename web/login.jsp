@@ -24,7 +24,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/button.css"
           media="screen">
-    <link rel="SHORTCUT ICON" href="img/tuzi.png">
+    <link rel="SHORTCUT ICON" href="images/tuzi.png">
     <script type="text/javascript">
         function form_reset() {
             document.getElementById("uname").value="";
@@ -158,7 +158,7 @@
             border-bottom: 0px;
         }
         a:link {
-            font: 12px;
+            font-size: 12px;
             color: #FFFFFF;
             text-decoration: none;
         }
@@ -175,7 +175,7 @@
 
 			<span
                     style="background: left;width:350px; height:64px;float:left;font-size: 25px;color: #ffffff;padding-top: 12px;font-family:Microsoft YaHei;">
-				<img id="logo" border="0px" src="img/gongda.jpg" width="50px"
+				<img id="logo" border="0px" src="images/gongda.jpg" width="50px"
                      height="50px" /> 高校教学教务巡查系统
 			</span>
         <div id="dt" align="right"
@@ -196,17 +196,18 @@
 <div class='signup_container'>
     <h1 class='signup_title'>用户登陆</h1>
     <div id="divcss">
-        <img id="photo3" border="1"  src="img/tuzi.png"
+        <img id="photo3" border="1"  src="images/tuzi.png"
              width="100px" height="100px" />
     </div>
 
 
     <div id="signup_forms" class="signup_forms clearfix">
+
         <form class="signup_form_form" id="signup_form" method="post"
               data-secure-ajax-action="">
 
             <div class="form_row first_row">
-                <label for="uanme">请输入用户名</label>
+                <label for="uname">请输入用户名</label>
                 <!--<div class='tip ok'></div>-->
                 <input type="text" name="uanme" placeholder="请输入用户名" id="uname"
                        data-required="required">
@@ -230,12 +231,15 @@
                     </table>
 
                 </div>
+            </div>
         </form>
 
     </div>
 
 </div>
-<div style="margin-top: 20px;text-align: center;">
+
+<div style="margin-top: 20px; text-align: center;">
+
     <table style="margin-left: 40px">
         <tr>
             <td><input type="text" name="role" id="role"
@@ -243,7 +247,10 @@
                        data-options="width:170,onText:'管理員',offText:'巡查员'"
                        onclick="switchChangeValue()" /></td>
             <td><a href="javascript:register()" class="easyui-linkbutton"
-                   data-options="iconCls:'icon-save'" style="color: black">新用户注册</a></td>
+                   data-options="iconCls:'icon-save'" style="color: black">
+                    新用户注册
+                </a>
+            </td>
         </tr>
 
 
@@ -261,7 +268,7 @@
         <input type="button" value="" />取消
     </div><br>
     <br><br>
-    Copyright © 2017-？ Paradise. All Rights Reserved
+    Copyright © 2017-？ Paradise. F4:YXL,WQJ,RYS,ZJY All Rights Reserved
 </div>
 
 </body>

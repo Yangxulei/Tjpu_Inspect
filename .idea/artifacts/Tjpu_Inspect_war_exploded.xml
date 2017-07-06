@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Tjpu_Inspect" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="Hibernate 5.2.10-5.2.10" />
+          <element id="library" level="project" name="fastjson-1.1.40" />
+        </element>
       </element>
     </root>
   </artifact>

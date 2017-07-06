@@ -1,0 +1,20 @@
+/* html, body, div, form, p, a, h1, h2, h3, h4, h5, h6, img, table, td, th, input, span, section, header, footer, nav, article, aside, fieldset, textarea, dl, dt, dd, blockquote, ul, ol { margin:0;padding:0;list-style: none;} */
+
+img {vertical-align:top;border:0;} 
+a {text-decoration: none;color: #0B3B8C;}
+.clear {clear: both;}
+.pos-r {position: relative;}
+.pos-a {position: absolute;}
+.Opacity {opacity: .5;filter: alpha(opacity=50);}
+/*幻灯片*/
+.slide{width:640px;height:430px;position:relative;margin:0 auto;}
+#PicSlide{width:640px;overflow:hidden;_zoom:1;height:430px;}
+#PicSlide .img{height:360px;overflow:visible;_zoom:1;}
+#PicSlide .title{bottom:70px;width:100%;position:absolute;}
+#PicSlide .shadow{background-color:#000;opacity:.5;filter:alpha(opacity=50);height:70px;}
+#PicSlide .title .h3{z-index:30;line-height:20px;margin:4px 10px 0 10px;}
+#PicSlide .title .h3 a{font-weight:normal;font-size:12px;color:#fff;}
+#PicSlide .thumb{bottom:0;left:0;position:absolute;overflow:hidden;_zoom:1;height:70px;}
+#PicSlide .thumb ul{z-index:20;width:660px;overflow:hidden;_zoom:1;margin-top:10px;}
+#PicSlide .thumb li{width:120px;height:60px;margin-right:10px;float:left;_display:inline;}
+#PicSlide .thumb .now-status{position:absolute;width:130px;height:20px;background:url(../img/slider-ico.png) no-repeat 0 0;z-index:-1;top:0;left:0;}

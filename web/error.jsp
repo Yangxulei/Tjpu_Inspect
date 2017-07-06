@@ -6,13 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <title>网页出错了23333</title>
-    <script type="text/javascript" src="easyui/jquery.min.js"></script>
+    <script type="text/javascript" src=""></script>
     <script type="text/javascript" src="easyui/locale/easyui-lang-zh_CN.js"></script>
     <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/error.css" />
@@ -20,7 +20,9 @@
 
 <body style="text-align:center">
 
-<div id="rocket" style="background-image: errorimg/rocket.png"></div>
+<%--<div id="rocket" style="background-image: images/rocket.png">--%>
+    <%----%>
+<%--</div>--%>
 
 <hgroup>
     <h1>404 Not Found</h1>
