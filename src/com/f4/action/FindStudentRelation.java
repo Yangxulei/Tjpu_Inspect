@@ -23,7 +23,7 @@ package com.f4.action;
 @ParentPackage("struts-default")
 @Namespace("/")
 
-public class FindStudentRealtion extends ActionSupport {
+public class FindStudentRelation extends ActionSupport {
     Map map;
     int page;
     int rows;
@@ -85,4 +85,4 @@ public class FindStudentRealtion extends ActionSupport {
     }
 
 }
-}
+

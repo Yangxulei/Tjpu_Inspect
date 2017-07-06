@@ -76,4 +76,4 @@ public class SaveEducationalInfo extends ActionSupport{
 
 
 }
-}
+

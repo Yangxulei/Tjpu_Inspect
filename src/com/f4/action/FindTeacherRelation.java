@@ -6,70 +6,74 @@ package com.f4.action;
 
 
 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Map;
 
+import org.apache.struts2.ServletActionContext;
+import org.apache.struts2.convention.annotation.Action;
+import org.apache.struts2.convention.annotation.Namespace;
+import org.apache.struts2.convention.annotation.ParentPackage;
 
-
-
-        import org.apache.struts2.convention.annotation.Action;
-        import org.apache.struts2.convention.annotation.Namespace;
-        import org.apache.struts2.convention.annotation.ParentPackage;
-        import org.apache.struts2.convention.annotation.Result;
-
-
-
-        import com.f4.dao.DBUtils;
-        import com.f4.pojo.EcharStudnetData;
-        import com.f4.pojo.UserInfo;
-        import com.opensymphony.xwork2.ActionSupport;
-
-
-
-@ParentPackage("json-default")
+import com.alibaba.fastjson.JSON;
+import com.f4.dao.DBUtils;
+import com.opensymphony.xwork2.ActionSupport;
+@ParentPackage("struts-default")
 @Namespace("/")
-public class FindTeacherRecodeCount extends ActionSupport{
-    EcharStudnetData esd;
-    String grade;
-    String classname;
-    String tname;
+
+public class FindTeacherRelation extends ActionSupport {
+    Map map;
+    int page;
+    int rows;
+    String tname="";
+
+    @Action(value="findTeacherRelation")
+    public void	findTeacherRelation(){
+        DBUtils db=new DBUtils();
+        map=new HashMap();
+        map.put("total", db.getTeacherRelation());
+        map.put("rows", db.findTeacherRelation(page, rows,tname));
+        String json=JSON.toJSONString(map);
+        PrintWriter out;
+        try {
+            ServletActionContext.getResponse().setCharacterEncoding("utf-8");
+            out=ServletActionContext.getResponse().getWriter();
+            out.print(json);
+            out.flush();
+            out.close();
+            db.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
+    public int getRows() {
+        return rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+    public Map getMap() {
+        return map;
+    }
+    public void setMap(Map map) {
+        this.map = map;
+    }
     public String getTname() {
         return tname;
     }
     public void setTname(String tname) {
         this.tname = tname;
     }
-    public EcharStudnetData getEsd() {
-        return esd;
-    }
-    public void setEsd(EcharStudnetData esd) {
-        this.esd = esd;
-    }
-    String xueqi;
-    public String getGrade() {
-        return grade;
-    }
-    public void setGrade(String grade) {
-        this.grade = grade;
-    }
-    public String getClassname() {
-        return classname;
-    }
-    public void setClassname(String classname) {
-        this.classname = classname;
-    }
-    public String getXueqi() {
-        return xueqi;
-    }
-    public void setXueqi(String xueqi) {
-        this.xueqi = xueqi;
-    }
-    @Action(value="getTCountNumber" ,
-            results={ @Result(type="json",name="esd",
-                    params={"root","esd"})})
-    public String getTCountNumber(){
-        DBUtils db=new DBUtils();
-        esd=db.findEcharStudentdata(classname, xueqi, grade,tname);
-        db.close();
-        return "esd";
-    }
 
-}}
+}

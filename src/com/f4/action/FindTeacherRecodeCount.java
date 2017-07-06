@@ -18,7 +18,7 @@ package com.f4.action;
 
 
         import com.f4.dao.DBUtils;
-        import com.f4.pojo.EcharStudnetData;
+        import com.f4.pojo.EcharStudentData;
         import com.f4.pojo.UserInfo;
         import com.opensymphony.xwork2.ActionSupport;
 
@@ -27,7 +27,7 @@ package com.f4.action;
 @ParentPackage("json-default")
 @Namespace("/")
 public class FindTeacherRecodeCount extends ActionSupport{
-    EcharStudnetData esd;
+    EcharStudentData esd;
     String grade;
     String classname;
     String tname;
@@ -37,10 +37,10 @@ public class FindTeacherRecodeCount extends ActionSupport{
     public void setTname(String tname) {
         this.tname = tname;
     }
-    public EcharStudnetData getEsd() {
+    public EcharStudentData getEsd() {
         return esd;
     }
-    public void setEsd(EcharStudnetData esd) {
+    public void setEsd(EcharStudentData esd) {
         this.esd = esd;
     }
     String xueqi;
@@ -72,4 +72,4 @@ public class FindTeacherRecodeCount extends ActionSupport{
         return "esd";
     }
 
-}}
+}
