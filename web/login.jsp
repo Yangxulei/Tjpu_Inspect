@@ -240,7 +240,7 @@
 
 <div style="margin-top: 20px; text-align: center;">
 
-    <table style="margin-left: 40px">
+    <table style="margin-left: 40px;margin: 0 auto;" >
         <tr>
             <td><input type="text" name="role" id="role"
                        class="easyui-switchbutton"
