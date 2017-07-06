@@ -13,6 +13,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <c:if test="${sessionScope.uname!=null}">
     <head>
         <meta charset="utf-8">
@@ -373,6 +374,7 @@
                             class="dropdown-setting dropdown-menu">
                             <li><a href="personCenter.jsp" target="iframe"> <span class="entypo-user"></span>&#160;&#160;个人中心
                             </a></li>s
+
                             <li><a href="javascript:updatePwd()"> <span
                                     class="entypo-vcard"></span>&#160;&#160;修改密码
                             </a></li>
@@ -470,7 +472,7 @@
                     </ul>
 
 
-                    <c:f test="${sessionScope.role eq '管理员' }">
+                    <c:if test="${sessionScope.role eq '管理员' }">
                         <ul class="topnav menu-left-nest">
 
 
@@ -640,11 +642,6 @@
 
 
 
-    <!-- END OF RIGHT SLIDER CONTENT-->
-
-    <!--<script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script>-->
-
-    <!--<script src="assets/js/progress-bar/progress-app.js"></script>-->
 
 
 
@@ -658,14 +655,7 @@
 
 
 
-    <!-- GAGE -->
 
-
-    <!--    <script type="text/javascript" src="assets/js/chart/jquery.flot.js"></script>-->
-    <!--    <script type="text/javascript" src="assets/js/chart/jquery.flot.resize.js"></script>-->
-    <!--    <script type="text/javascript" src="assets/js/chart/realTime.js"></script>-->
-
-    <!--    <script type="text/javascript" src="assets/js/countdown/jquery.countdown.js"></script>-->
 
 
 
