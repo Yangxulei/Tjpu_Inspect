@@ -16,7 +16,7 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <head>
         <base href="<%=basePath%>">
 
@@ -213,9 +213,9 @@
             <td><select id="tname" class="easyui-combobox" name="dept"
                         style="width:100%;">
                 <option>张建军</option>
-                <option>王秋菊</option>
-                <option>崔源</option>
-                <option>薛大欣</option>
+                <option>尹海欣</option>
+                <option>姜丽丽</option>
+                <option>韩教授</option>
             </select></td>
             <td><select id="grade" class="easyui-combobox" name="dept"
                         style="width:100%;">
@@ -261,9 +261,9 @@
                              style="width: 100%;height: 400px;position: relative;float: right;"></div></td>
     </table>
     </body>
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请先联系管理员
-</c:if>
+    <%--</c:if>
+    <c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请先联系管理员--%>
+<%--</c:if>--%>
 </html>
 

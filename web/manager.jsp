@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <head>
         <meta charset="UTF-8">
         <title>高校教务巡查系统</title>
@@ -314,7 +314,7 @@
 					<tr>
 						<td>
 						<a href="javascript:personCenter()">
-						<img id="photo2" border="1" alt="个人头像" src="img/tuzi.png"
+						<img id="photo2" border="1" alt="个人头像" src="images/tuzi.png"
                              width="50px" height="50px" /></a></td>
 				<td style="padding-bottom: 20px">
 
@@ -324,7 +324,7 @@
     </table>
     </span>
             <span style="background: left;width:350px; height:64px;float:left;margin-left: 30px;font-size: 20px;">
-				<img id="logo" border="0px" src="img/gongda.jpg" width="50px"
+				<img id="logo" border="0px" src="images/gongda.jpg" width="50px"
                      height="50px" />
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高校教学教务巡查系统 </span>
         </div>
@@ -389,7 +389,7 @@
     </div>
     <div id="bottom" data-options="region:'south',height:'50px',split:true">
         <center>
-            <br /> &copy;2016-2017 软通动力&天津工业大学 Copy Right<br />
+            <br /> &copy;2017-2018 isoft&TJPU_F4 Copy Right<br />
             <br />
         </center>
     </div>
@@ -405,7 +405,7 @@
             </tr>
             <tr>
                 <td>新密码：</td>
-                <td><input id="txtNewPass" type="text class="txt01" /></td>
+                <td><input id="txtNewPass" type="text" class="txt01"></td>
             </tr>
             <tr>
                 <td>确认密码：</td>
@@ -418,10 +418,10 @@
         <a id="btnCancel" class="easyui-linkbutton" icon="icon-cancel" href="javascript:voidd()">取消</a>
     </div>
     </body>
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请联系管理员
-</c:if>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请联系管理员--%>
+<%--</c:if>--%>
 </html>
 
 

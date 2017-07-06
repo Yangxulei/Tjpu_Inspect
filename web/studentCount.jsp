@@ -14,9 +14,9 @@
             + path + "/";
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<%--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">--%>
 <html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <head>
         <base href="<%=basePath%>">
 
@@ -292,9 +292,9 @@
         </table>
     </div>
     </body>
-</c:if>
+<%--</c:if>--%>
 
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请先联系管理员
-</c:if>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请先联系管理员--%>
+<%--</c:if>--%>
 </html>

@@ -273,7 +273,7 @@
 
     <br>
     <div>
-        <center>Copyright © 2016-？ Paradise. All Rights Reserved</center>
+        <center>Copyright © 2017-？ Paradise. F4:万千钧,任永硕,张锦源，杨旭磊 All Rights Reserved</center>
     </div>
 </form>
 <!-- <nav class="navbar  navbar-fixed-top navbar-color" role="navigation">
@@ -374,7 +374,7 @@
     <div id="page_footer"
         style="width:960px;background-color:gray;font-size: 12px; color:white">
         <center>
-            <br /> &copy;2016-2017 软通动力&天津工业大学 Copy Right<br /> <br />
+            <br /> &copy;2017-？ 软通动力&天津工业大学 Copy Right<br /> <br />
         </center>
     </div>
 </center> -->

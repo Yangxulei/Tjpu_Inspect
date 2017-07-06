@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <head>
         <title>巡查員管理</title>
         <meta charset="UTF-8">
@@ -114,10 +114,10 @@
     </c:if>
     </body>
 
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请联系管理员
-</c:if>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请联系管理员--%>
+<%--</c:if>--%>
 </html>
 
 
