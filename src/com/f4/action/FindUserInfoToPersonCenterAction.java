@@ -53,4 +53,4 @@ public class FindUserInfoToPersonCenterAction extends ActionSupport{
         return "userinfo";
     }
 }
-}
+

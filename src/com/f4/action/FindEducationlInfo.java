@@ -20,7 +20,7 @@ package com.f4.action;
         import com.opensymphony.xwork2.ActionSupport;
         @ParentPackage("struts-default")
         @Namespace("/")
-public class FindEducationalInfo extends ActionSupport{
+public class FindEducationlInfo extends ActionSupport{
     Map map;
     int page;
     int rows;
@@ -73,4 +73,4 @@ public class FindEducationalInfo extends ActionSupport{
         this.subject = subject;
     }
 }
-}
+
