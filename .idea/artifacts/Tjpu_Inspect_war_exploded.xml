@@ -11,6 +11,13 @@
           <element id="library" level="project" name="Struts 2-2.3.20.1" />
           <element id="library" level="project" name="Hibernate 5.2.10-5.2.10" />
           <element id="library" level="project" name="fastjson-1.1.40" />
+          <element id="library" level="project" name="aopalliance-1.0" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl" />
+          <element id="library" level="project" name="json-lib-2.1-jdk15" />
+          <element id="library" level="project" name="jstl-impl-1.2.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.0.0-beta-bin" />
+          <element id="library" level="project" name="poi-3.15-beta1" />
+          <element id="library" level="project" name="sslext-1.2-0" />
         </element>
       </element>
     </root>
