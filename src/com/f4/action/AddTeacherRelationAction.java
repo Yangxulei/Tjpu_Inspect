@@ -13,9 +13,9 @@ package com.f4.action;
         import org.apache.struts2.convention.annotation.Namespace;
         import org.apache.struts2.convention.annotation.ParentPackage;
 
-        import com.iss.dao.DBUtils;
-        import com.iss.pojo.TeacherRelation;
-        import com.iss.pojo.xunchaInfo;
+        import com.f4.dao.DBUtils;
+        import com.f4.pojo.TeacherRelation;
+        import com.f4.pojo.xunchaInfo;
         import com.opensymphony.xwork2.ActionSupport;
 
 
