@@ -18,6 +18,7 @@
           <element id="library" level="project" name="mysql-connector-java-5.0.0-beta-bin" />
           <element id="library" level="project" name="poi-3.15-beta1" />
           <element id="library" level="project" name="sslext-1.2-0" />
+          <element id="library" level="project" name="struts2-convention-plugin-2.1.6" />
         </element>
       </element>
     </root>

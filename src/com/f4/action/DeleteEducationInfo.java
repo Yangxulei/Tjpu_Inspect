@@ -17,8 +17,8 @@ package com.f4.action;
         import com.opensymphony.xwork2.ActionSupport;
 @ParentPackage("struts-default")
 @Namespace("/")
-
 public class DeleteEducationInfo extends ActionSupport{
+
     int id;
 
     public int getId() {
@@ -51,5 +51,5 @@ public class DeleteEducationInfo extends ActionSupport{
 
     }
 
-}
+
 }
