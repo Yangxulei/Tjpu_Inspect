@@ -17,8 +17,8 @@ package com.f4.action;
 
 
 
-        import com.iss.dao.DBUtils;
-        import com.iss.pojo.EcharStudnetData;
+        import com.f4.dao.DBUtils;
+        import com.f4.pojo.EcharStudnetData;
         import com.opensymphony.xwork2.ActionSupport;
 
 

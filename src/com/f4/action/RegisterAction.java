@@ -12,9 +12,9 @@ package com.f4.action;
         import org.apache.struts2.convention.annotation.Namespace;
         import org.apache.struts2.convention.annotation.ParentPackage;
 
-        import com.iss.dao.DBUtils;
-        import com.iss.pojo.Login;
-        import com.iss.pojo.UserInfo;
+        import com.f4.dao.DBUtils;
+        import com.f4.pojo.Login;
+        import com.f4.pojo.UserInfo;
         import com.opensymphony.xwork2.ActionSupport;
 
 @ParentPackage("struts-default")

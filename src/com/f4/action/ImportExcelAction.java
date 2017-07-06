@@ -19,9 +19,9 @@ package com.f4.action;
         import org.apache.struts2.convention.annotation.Namespace;
         import org.apache.struts2.convention.annotation.ParentPackage;
 
-        import com.iss.commoninterface.ParseDB;
-        import com.iss.dao.DBUtils;
-        import com.iss.pojo.Student;
+        import com.f4.commoninterface.ParseDB;
+        import com.f4.dao.DBUtils;
+        import com.f4.pojo.Student;
         import com.opensymphony.xwork2.ActionSupport;
 
 
