@@ -21,7 +21,7 @@ package com.f4.dao;
 
         import com.f4.commoninterface.CommonDB;
         import com.f4.pojo.Department;
-        import com.f4.pojo.EcharStudnetData;
+        import com.f4.pojo.EcharStudentData;
         import com.f4.pojo.Educational;
         import com.f4.pojo.Login;
         import com.f4.pojo.Student;
