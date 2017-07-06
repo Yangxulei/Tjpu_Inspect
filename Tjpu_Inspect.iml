@@ -52,5 +52,6 @@
     <orderEntry type="library" name="mysql-connector-java-5.0.0-beta-bin" level="project" />
     <orderEntry type="library" name="poi-3.15-beta1" level="project" />
     <orderEntry type="library" name="sslext-1.2-0" level="project" />
+    <orderEntry type="library" name="struts2-convention-plugin-2.1.6" level="project" />
   </component>
 </module>
