@@ -10,7 +10,7 @@
 
 <!DOCTYPE html>
 <html>
-<c:if test="${sessionScope.uname!=null}">
+<%--<c:if test="${sessionScope.uname!=null}">--%>
     <head>
         <title>addUserInfo.html</title>
 
@@ -365,8 +365,8 @@
     <!-- </div> -->
 
     </body>
-</c:if>
-<c:if test="${sessionScope.uname==null}">
-    非法访问，请先联系管理员
-</c:if>
-</html>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.uname==null}">--%>
+    <%--非法访问，请先联系管理员--%>
+<%--</c:if>--%>
+<%--</html>--%>
