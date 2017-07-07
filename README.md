@@ -14,6 +14,10 @@ author：[@YangXuLei](https://github.com/YangXuLei) [@Chinashuo](http://github.c
 
 [@YangXuLei](https://github.com/YangXuLei)：我们这个是宇宙第一开发神器的修炼养成记，我们都曾迷茫过，半路跌倒过☹️🤓😎🤥💩👏
 
+[@YangXuLei](https://github.com/YangXuLei)：那个bug，找了无数人都一筹莫展，这个项目写到后面都懵逼了，最后。。。。。。重建工程，转移代码中。。。。。。🤣🤣🤣🤣🤣🤣🤣💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤
+
+[@Chinashuo](http://github.com/Chinashuo)： 写啥验证码，亡者农药，没人打野，艹
+
 
 
 
